@@ -1,9 +1,0 @@
-Angeben, dass f.mueller@nids.foundation auf fmgmt@tutanota.com geaendert wird
-
-
-1. Angaben aus Mail lesen
-2. mail.enc Anhang durchschauen, Zeichenverschiebung sehen (erst an ROT-13 oder Alternativen denken)
-3. robots.txt der Website auslesen, immer OSINT Step 1
-4. /keys/ als Verbot fuer Crawler finden
-5. Quellcode gibt Hinweis auf vig-enc (Vignere Encoding) und a-z (alpha lowercase)
-6. Python Script um alle 15010 Keys durchzuprobieren (brute force)
