@@ -28,7 +28,7 @@ metadata = {
   'license': 'MSF_LICENSE',
   'references': [
     {'type': 'url', 'ref': 'https://bayerns-bester-hacker.de/'},
-	{'type': 'url', 'ref': 'https://github.com/p-w/'},
+    {'type': 'url', 'ref': 'https://github.com/p-w/'},
     {'type': 'aka', 'ref': 'Bayerns Bester Hacker 2021/1'}
   ],
   'type': 'single_scanner',
@@ -36,7 +36,7 @@ metadata = {
     'RHOSTS': {'type': 'string', 'description': 'The default RHOSTS', 'required': True, 'default': '127.0.0.1'},
     'mail_enc': {'type': 'string', 'description': 'The file path to the Vignere encrypted email message', 'required': True, 'default': None},
     'keys_file': {'type': 'string', 'description': 'The path to the keys file containing the decryption keys', 'required': True, 'default': None},
-	'plaintext_check': {'type': 'string', 'description': 'A plaintext word to verify successful decryption', 'required': True, 'default': 'charset'}
+    'plaintext_check': {'type': 'string', 'description': 'A plaintext word to verify successful decryption', 'required': True, 'default': 'charset'}
   }
 }
 
