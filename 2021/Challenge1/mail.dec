@@ -1,68 +1,67 @@
-subject: server zugang
-content-type: text/plain; charset=utf-8
-x-apple-base-url: x-msg://14/
-x-universally-unique-identifier: e2313a64g-4cgg-5f64-ac31-c43563721144 
-x-apple-mail-remote-attachments: yes
-from: aurelius mueller <a.mueller@rae-schmitt.de>
-x-apple-mail-plain-text-draft: yes
-x-apple-windows-friendly: 1
-date: fri, 23 jul 2021 11:56:04 +0200
-x-apple-mail-signature: <e2313a64g-4cgg-5f64-ac31-c43563721144>
-content-transfer-encoding: quoted-printable
-message-id: <e2313a64g-4cgg-5f64-ac31-c43563721144@rae-schmitt.de>
-x-uniform-type-identifier: com.apple.mail-draft
-to: max.schmitt@rae-schmitt.de
-mime-version: 1.0
+Subject: Server Zugang
+Content-Type: text/plain; charset=utf-8
+X-Apple-Base-Url: x-msg://14/
+X-Universally-Unique-Identifier: E2313A64G-4CGG-5F64-AC31-C43563721144 
+X-Apple-Mail-Remote-Attachments: YES
+From: Aurelius Mueller <a.mueller@rae-schmitt.de>
+X-Apple-Mail-Plain-Text-Draft: yes
+X-Apple-Windows-Friendly: 1
+Date: Fri, 23 Jul 2021 11:56:04 +0200
+X-Apple-Mail-Signature: <E2313A64G-4CGG-5F64-AC31-C43563721144>
+Content-Transfer-Encoding: quoted-printable
+Message-Id: <E2313A64G-4CGG-5F64-AC31-C43563721144@rae-schmitt.de>
+X-Uniform-Type-Identifier: com.apple.mail-draft
+To: max.schmitt@rae-schmitt.de
+MIME-Version: 1.0
 
-hallo max,
+Hallo Max,
 
-die server stehen ab sofort bereit. ich habe dir einen ssh-key erstellt, dieser lautet:
+die Server stehen ab sofort bereit. Ich habe dir einen SSH-Key erstellt, dieser lautet:
 
------begin rsa private key-----
-miiepaibaakcaqeayymsn8reancdavuhikhy/cjxv8tkspfwcp8wrof8argcir4j
-xqsuaoduyb/01xedkcgom8yjwpumzmnegxh/hsegzaudqjos8ycncgbns+n7plpo
-9jf5s/dq6i8dj7w8dm4eyag9ovtme0grk25x6fuuayah7ogmy207q95nbrjnou5+
-ttswnuwrkr30prwbv8dt2wjg66gi6itucue3xuow/gj7fxtmufeyyt07dmvxavlk
-yexlweki2em99e3b8zz5jts3uwqezbp4ls0fb35eqggoehn95jo4psivcydv8ihb
-/f8j0qmyhfih2kni2siagisvbhcy5jsdljmguqidaqabaoibaqcwxer29relyacv
-stmw3xivbgxizujlim6fnlebei70gr0quo8dn+wnac2gep+6ouzmxkxacafxkrdw
-a5t6vxry4yl5a4vblmlcm+csf+lyj+w0ws/df7r5a+tqomc3aegjhprgozomvn4u
-6rys1f+wbrsxsdghj2jsivhnfjokmconyzxtevygzlpcw7cyps9nxpnehitaiya8
-sim9srjfq39tvnjcloiwpnmuythu+novndj4el6wedrfvdxtst4rkmdhgaqu1oh1
-grp0pdboklagqbg4vrhushvsrmyptxid1+3nvhxkgj/g+vy5eujzokrof9zvne6e
-cyoycfzraogbapjyreoip4elo3yhzr26nmz1ys0ueg8vvtzajb6j3t2mfbu0zrhs
-lxhnvqecjv7kdrxgkfpwvwuz+fsup6ffvoyvtp0eue7pdwcyozf1dk0t5p/pjoql
-37glxj0qmwfcwuc1zlwjyfhv2d54ew3pvqzitk6upqw5pgjv1vetjwz9aogbantn
-mdjkyqfli+3hyyq++mzjb0idnvnbvtovgngto3dz1y/3p+b+ehrti+z3z89p3yzw
-+s/ysq2trwlkr+axzrz2rsmevomzcq0j1rldcqxnyaaflsfzzv3j9mdckdmspdod
-ni503h8kosqvxsnuki32tyqlyie2xrago+6xvu1taogac/iedmygrrffjdqvjn/v
-la4g/k/hvwksnq3ua6bfwuxek8h+sav/832/cj9iznqce0ctvnrx+eraydtzo9bn
-otynx+zfbhkbnz7no9eqd7kenmuuarv7iigqtx8vsagvbejltnpzyxrs1b8cvlm7
-foxhcrz/3ph0irax+ezjxo0cgyb1zck2e0tmevgbo36pdnf8immjoteegznucsxu
-vn6psbu5himfw0vkfgrdqzcyfq6fvmpiega4srzlcmfa4t+zfd00p1hep2+1tzqi
-mpe2osxkxfvt+c2meun6stjeo8vbn/iax/v8kceqj2ldbc7qdftgfir2kbp8um31
-u725dqkbgqc9c0jtzt9jpwbcfi1mjuhjs+pgf2sqtzqhsxuwkf+ztxsbccicy3xw
-8tfmocn6wnbcloxgpnazbivrdzulnmvbxr81eqvhqnd7qeyh9biccfcpbr2byuih
-sbl2gq+uwos+8fmayrsfxmnmjpxljttp0jfqd5bjmm6lo1p0l4jhcw==
------end rsa private key-----
+-----BEGIN RSA PRIVATE KEY-----
+MIIEpAIBAAKCAQEAyYmsn8REANCDavUhiKhY/CJXV8TKSpFWcP8wroF8ARGCIr4j
+xQsUaODuyB/01XeDkCGoM8yjwPUmzmNegXH/HseGzaUdqjOS8ycnCGBnS+n7PLPO
+9JF5S/dq6i8dJ7w8Dm4EyAG9OVtmE0grK25x6fuuaYAH7ogmy207q95nbRjnoU5+
+TTSwnuwRKr30PRWbV8dT2WJg66gi6ituCUE3XuoW/gJ7FxTMUfEyYt07dMvxavLk
+YEXLweki2Em99e3B8ZZ5JTs3uwqezBp4Ls0fB35eqggOEhn95JO4psIVcYdV8IHb
+/F8j0QmYhFiH2kni2SIAGISVBHCy5jsDLJmguQIDAQABAoIBAQCWXer29ReLyAcV
+STmw3XIvBGxIZuJLim6FNlEbEi70GR0QUO8dN+wNaC2gEP+6OUZmxkXaCAfxkrdW
+a5t6VxRy4Yl5a4VblMlCM+cSf+LyJ+w0WS/DF7r5a+tQOMC3AeGJHprgozOMVN4u
+6ryS1f+WBRsXSdghJ2JSivhnfjOKmCOnYzXTevygZLPCW7cypS9NxpNEhItaIYA8
+Sim9sRjfQ39tvnJcloiWpNMUYthu+noVnDj4El6WEDrFVDXTst4RKmDHgAqU1oH1
+GRp0pdboklAGQBg4VrhUShvSrMYPtxiD1+3NvhXkGJ/g+VY5EuJZokRof9ZVNE6e
+cyoycfZRAoGBAPJyrEOiP4elo3yHzr26NMz1YS0uEG8vVTzaJB6J3t2mFbu0Zrhs
+lXHnVqeCJv7kDrxGKfPWVWUZ+fsup6ffvOYvTP0eUE7PDwCYozf1DK0T5P/pjOqL
+37GlXj0qMWFCwuc1zLwJYFHV2D54EW3PVqzItK6UpqW5PgJv1vETjwz9AoGBANTN
+mDJkYQFli+3hYYQ++MZJB0idnVNbvtOVGNgTo3dz1Y/3P+B+EHrti+Z3Z89P3yzW
++S/YSq2trwlkr+AxZrz2rSMeVOmZCq0j1RLDCQxNYaafLsFzZV3j9mDcKDMSpDOd
+nI503h8KoSqVxsNUki32TyQLyiE2xragO+6XvU1tAoGAC/IEdMygrrFFjdQvJn/v
+LA4G/K/hVWkSnQ3ua6bFWUxek8H+saV/832/cj9iZnqcE0CtvnrX+ERAYdTZo9bN
+OtYnx+zfbhKbnZ7no9EqD7kENmuuarv7iIgqTX8vsagVbEjlTnpzyXRs1B8cVLm7
+foXhCRz/3Ph0irAx+ezJxo0CgYB1ZCk2e0tMEvGbO36pDnf8ImMjOteEGZNucsxu
+vn6psbu5HIMfW0vKFGrdqzcYFQ6fVMPIEgA4SRzLCMFA4t+zFD00p1HeP2+1TZQI
+MpE2OSXKXfvT+c2Meun6StjeO8VbN/IaX/v8kceQj2lDbc7qDftgfiR2KBp8um31
+U725DQKBgQC9c0jtzT9JpwBcfI1mJuhJs+PGf2SqTzqHSXuwkf+ztXsBccicy3xW
+8tfmoCn6WNbcLOxGpnaZBiVRdZULnmvBXR81EqvhQnd7qeyH9BiccFcPbR2BYUiH
+sBl2Gq+uWoS+8fMayrSfxmNmjpxljTTp0jFQd5BJmM6Lo1p0l4jHCw==
+-----END RSA PRIVATE KEY-----
 
 
 
-viele grueße,
+Viele Grueße,
 —
-aurelius mueller
-legal clerkship / it admin
+Aurelius Mueller
+Legal Clerkship / IT Admin
 
  
 
-[e-mail] a.mueller@rae-schmitt.de
+[e-Mail] a.mueller@rae-schmitt.de
 
  
 
-law firm schmitt
-bundesallee 1
-10719 berlin
-germany
+Law Firm Schmitt
+Bundesallee 1
+10719 Berlin
+Germany
 www.rae-schmitt.de
-
 
