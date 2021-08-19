@@ -10,9 +10,7 @@ Das Firmennetzwerk der RAe Schmitt wurde angegriffen und mehrere Clients sind je
 
 Von den Angreifern hat die RAe Schmitt folgende Nachricht erhalten:
 
-
-
-
+![Ransom Note](171a2c18-9396-4145-b9f2-50c5ab53c0eb)
 
 Wir haben die Festplatten des zuerst infizierten Clients von Leonardo Maier exportiert und unter https://share.wlh.io/l/34ba2ada-bbb1-47d0-be33-808f6af5b1c0 bereitgestellt.
 Zum Download des Abbilds musst du bitte deinen Namen und deine Email-Adresse hinterlegen.
@@ -38,6 +36,8 @@ Wir wünschen dir viel Spaß und freuen uns auf deine Lösung.
 Happy Hacking!
 
 Dein Challenge-Team von Bayerns Bester Hacker
+
+![Screenshot](screenshot.jpg)
 
 
 ## Lösung
