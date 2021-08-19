@@ -188,7 +188,6 @@ Auch hier konnten nur zwei Systemdateien rekonstruiert werden, welche für den w
 
 #### Timeline erstellen
 
-
 Um einen genauen Verlauf des Angriffs, Dateizugriffe, Änderungen am System und Ausbreiten des Angreifers nachzuvollziehen, wurde mit [log2timeline/plaso](https://github.com/log2timeline/plaso) eine Timeline erstellt und mit ```psort``` nach dem jeweiligen Zeitstempel sortiert:
 ```
 psteal.py --source image.raw -o dynamic -w 2021-08-08_psteal-output.csv;
@@ -332,6 +331,12 @@ drive/Users/l.maier/AppData/Local/Google/Chrome/User Data/Default$
 
 #### Anomalien und weitere Entdeckungen
 
+Ein Windows-Bat-Skript al JPG-Bild getarnt:
+```wohnmobil.jpg                                                                                                .bat.karen```
+Gleichermaßen wie das Bild ```C:/image.jpg``` ist ein ungewöhnlicher Speicherort.
+
+Die privaten Bilder, Bewerbungen (l.maier/Desktop/bewerbungen( und PDF-Dokumente der Mandanten sind nicht mehr verfügbar.
+
 Auf dem System sind diverse PGP-Keys vorhanden, welche nicht verschlüsselt wurden. Ein Import der Keys ist allerdings fehlgeschlagen, daher protokolliert aber zur Entschlüsselung nicht weiter verfolgt.
 ```
 drive/Users/l.maier/AppData/Local/Microsoft/Edge/User Data/Default/Cache$ file * |grep PGP
@@ -346,6 +351,8 @@ f_000199.karen: PGP Secret Key -
 f_0001a3.karen: PGP Secret Key -
 ```
 ![Bayerns Bester Hacker 2021 Challenge 2 - PGP Key unverschluesselt](Screenshots/BBH2021C2_PGP-Key.jpg)
+
+Auch das Wechseln der Systemzeit lässt eine Verschleierung der genauen Zugriffsdaten vermuten:
 ![Bayerns Bester Hacker 2021 Challenge 2 - Neue Systemzeit](Screenshots/BBH2021C2_Zeitsprung.jpg)
 
 
@@ -385,9 +392,40 @@ IP | Beschreibung
 ![Bayerns Bester Hacker 2021 Challenge 2 - Login von Domain Controller](Screenshots/BBH2021C2_DomainController.jpg)
 
 
-# Parkplatz
+# Fazit
 
-## Benutzer
+Die Infektion fand über ein PDF statt und lud dann die Schadcodes über die ```powershell``` nach. Das Verschlüsseln der Dateien fand dann durch eine Rechte-Ausweitung (priviledge escalation) als System-User im Task Scheduler statt.
+
+Die Log-Datei [aadbg.log](aadbg.log) gibt gleichermaßen einen Aufschluss über das Vorgehen und wird hier stark verkürzt wiedergegeben:
+```
+Faking Image...
+done
+AV evasion...
+done
+Disabeling AV...
+done
+Creating Task...
+done
+Removing Task XML
+Done
+Reading passwords of target...
+Uploading C:\sam
+Uploading C:\System
+Done
+Uploading / stealing files...
+Uploading Users.FullName
+Uploading Administrator.FullName
+Uploading l.maier.FullName
+Uploading m.schmitt.FullName
+...
+Uploading actionqueueetw.dll.mui.FullName
+done
+Removing traces...
+done
+```
+
+
+# Parkplatz
 
 Vorhandene User im System: 
 * Adminstrator
