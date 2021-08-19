@@ -1,0 +1,261 @@
+
+-------------------------------------------------------------------------------
+
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/FAX.de/EasyOffice/Printerdriver/AMD64/CtrlSrv.exe: PUA.Win.Adware.Slugin-6840354-0 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/FAX.de/EasyOffice/Printerdriver/i386/CtrlSrv.exe: PUA.Win.Adware.Slugin-6840354-0 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/FAX.de/EasyOffice/Printerdriver/i386/iFaxCtrl.dll: PUA.Win.Packer.Exe-6 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/FAX.de/EasyOffice/Printerdriver/i386/iFaxCtrl.dll: PUA.Win.Packer.Exe-6 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/FAX.de/EasyOffice/Printerdriver/i386/iInvCtrl.dll: PUA.Win.Packer.Exe-6 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/FAX.de/EasyOffice/Printerdriver/i386/iPostCtl.dll: PUA.Win.Packer.Exe-6 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/FAX.de/EasyOffice/Printerdriver/i386/PDFCtrl.dll: PUA.Win.Packer.Exe-6 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/FAX.de/EasyOffice/unins000.exe: PUA.Win.Packer.PrivateEXEProtector4-6192998-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/FAX.de/EasyOffice/unins000.exe: PUA.Win.Adware.Slugin-6840354-0 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/j-lawyer-server/j-lawyer-data/templates/vorinstalliert/Community/j-lawyer-Forderungskonto-[jphaag].ods: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/j-lawyer-server/j-lawyer-data/templates/vorinstalliert/Community/j-lawyer-Forderungskonto-[jphaag].ods: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/j-lawyer-server/j-lawyer-data/templates/vorinstalliert/Community/j-lawyer-Forderungskonto-[jphaag].ods: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/j-lawyer-server/j-lawyer-data/templates/vorinstalliert/Community/j-lawyer-Forderungskonto-[jphaag].ods: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/j-lawyer-server/wildfly/modules/system/layers/base/org/jboss/as/console/main/hal-console-3.1.2.Final-resources.jar: PUA.Html.Exploit.CVE_2012_0469-1 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/j-lawyer-server/wildfly/modules/system/layers/base/org/jboss/as/console/main/hal-console-3.1.2.Final-resources.jar: PUA.Html.Exploit.CVE_2012_0469-1 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/j-lawyer-server/wildfly/modules/system/layers/base/org/jboss/as/console/main/hal-console-3.1.2.Final-resources.jar: PUA.Html.Exploit.CVE_2012_0469-1 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/j-lawyer-server/wildfly/modules/system/layers/base/org/jboss/as/console/main/hal-console-3.1.2.Final-resources.jar: PUA.Html.Exploit.CVE_2012_0469-1 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/KeePass Password Safe 2/unins000.exe: PUA.Win.Packer.Exe-6 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/KeePass Password Safe 2/unins000.exe: PUA.Win.Packer.Exe-6 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/presets/basic/Standard/Module1.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/Access2Base/OptionGroup.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/Access2Base/acConstants.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/Access2Base/Application.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/Access2Base/Collect.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/Access2Base/CommandBar.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/Access2Base/CommandBarControl.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/Access2Base/Control.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/Access2Base/Database.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/Access2Base/DataDef.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/Access2Base/Dialog.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/Access2Base/DoCmd.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/Access2Base/Event.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/Access2Base/Field.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/Access2Base/Form.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/Access2Base/L10N.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/Access2Base/Methods.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/Access2Base/Module.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/Access2Base/PropertiesGet.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/Access2Base/PropertiesSet.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/Access2Base/Property.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/Access2Base/Python.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/Access2Base/Recordset.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/Access2Base/Root_.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/Access2Base/SubForm.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/Access2Base/TempVar.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/Access2Base/Test.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/Access2Base/Trace.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/Access2Base/UtilProperty.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/Access2Base/Utils.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/Access2Base/_License.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/Depot/CommonLang.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/Depot/Currency.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/Depot/Depot.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/Depot/Internet.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/Depot/Lang_de.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/Depot/Lang_en.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/Depot/Lang_es.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/Depot/Lang_fr.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/Depot/Lang_it.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/Depot/Lang_ja.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/Depot/Lang_ko.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/Depot/Lang_sv.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/Depot/Lang_tw.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/Depot/Lang_zh.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/Depot/tools.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/Euro/AutoPilotRun.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/Euro/Common.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/Euro/ConvertRun.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/Euro/Hard.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/Euro/Init.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/Euro/Protect.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/Euro/Soft.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/Euro/Writer.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/FormWizard/DBMeta.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/FormWizard/develop.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/FormWizard/FormWizard.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/FormWizard/Language.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/FormWizard/Layouter.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/FormWizard/tools.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/Gimmicks/AutoText.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/Gimmicks/ChangeAllChars.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/Gimmicks/GetTexts.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/Gimmicks/ReadDir.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/Gimmicks/Userfields.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/ImportWizard/API.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/ImportWizard/DialogModul.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/ImportWizard/FilesModul.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/ImportWizard/Language.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/ImportWizard/Main.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/ScriptForge/SF_Array.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/ScriptForge/SF_Dictionary.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/ScriptForge/SF_Exception.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/ScriptForge/SF_FileSystem.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/ScriptForge/SF_L10N.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/ScriptForge/SF_Platform.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/ScriptForge/SF_Root.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/ScriptForge/SF_Services.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/ScriptForge/SF_Session.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/ScriptForge/SF_String.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/ScriptForge/SF_TextStream.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/ScriptForge/SF_Timer.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/ScriptForge/SF_UI.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/ScriptForge/SF_Utils.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/ScriptForge/_CodingConventions.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/ScriptForge/_ModuleModel.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/ScriptForge/__License.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/SFDatabases/SF_Database.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/SFDatabases/SF_Register.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/SFDatabases/__License.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/SFDialogs/SF_Dialog.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/SFDialogs/SF_DialogControl.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/SFDialogs/SF_Register.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/SFDialogs/__License.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/SFDocuments/SF_Base.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/SFDocuments/SF_Calc.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/SFDocuments/SF_Document.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/SFDocuments/SF_Register.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/SFDocuments/__License.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/Template/Autotext.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/Template/Correspondence.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/Template/ModuleAgenda.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/Template/Samples.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/Tools/Debug.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/Tools/Listbox.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/Tools/Misc.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/Tools/ModuleControls.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/Tools/Strings.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/Tools/UCB.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/Tutorials/Functions.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/Tutorials/RoadMap.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/Tutorials/ShowInfoDialog.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/Tutorials/TutorialClose.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/Tutorials/TutorialCreator.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/basic/Tutorials/TutorialOpen.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/LibreOffice/share/extensions/wiki-publisher/WikiEditor/Module1.xba: PUA.Doc.Tool.LibreOfficeMacro-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/WindowsApps/Microsoft.Office.OneNote_16001.14228.20150.0_x64__8wekyb3d8bbwe/CsiImm.dll: PUA.Win.Packer.Pequake-4 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/WindowsApps/Microsoft.Office.OneNote_16001.14228.20150.0_x64__8wekyb3d8bbwe/CsiImm.dll: PUA.Win.Packer.Pequake-4 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/WindowsApps/Microsoft.Office.OneNote_16001.14228.20150.0_x64__8wekyb3d8bbwe/CsiImm.dll: PUA.Win.Packer.Pequake-4 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/WindowsApps/Microsoft.Office.OneNote_16001.14228.20150.0_x64__8wekyb3d8bbwe/mso20imm.dll: PUA.Win.Packer.Pequake-4 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/WindowsApps/Microsoft.Office.OneNote_16001.14228.20150.0_x64__8wekyb3d8bbwe/mso20imm.dll: PUA.Win.Packer.Pequake-4 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/WindowsApps/Microsoft.Office.OneNote_16001.14228.20150.0_x64__8wekyb3d8bbwe/mso20imm.dll: PUA.Win.Packer.Pequake-4 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/WindowsApps/Microsoft.Office.OneNote_16001.14228.20150.0_x64__8wekyb3d8bbwe/mso50imm.dll: PUA.Win.Packer.Pequake-4 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/WindowsApps/Microsoft.Office.OneNote_16001.14228.20150.0_x64__8wekyb3d8bbwe/mso50imm.dll: PUA.Win.Packer.Pequake-4 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/WindowsApps/Microsoft.Office.OneNote_16001.14228.20150.0_x64__8wekyb3d8bbwe/mso50imm.dll: PUA.Win.Packer.Pequake-4 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/WindowsApps/Microsoft.Office.OneNote_16001.14228.20150.0_x64__8wekyb3d8bbwe/mso98imm.dll: PUA.Win.Packer.Pequake-4 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/WindowsApps/Microsoft.Office.OneNote_16001.14228.20150.0_x64__8wekyb3d8bbwe/mso98imm.dll: PUA.Win.Packer.Pequake-4 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/WindowsApps/Microsoft.Office.OneNote_16001.14228.20150.0_x64__8wekyb3d8bbwe/mso98imm.dll: PUA.Win.Packer.Pequake-4 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/WindowsApps/Microsoft.Office.OneNote_16001.14228.20150.0_x64__8wekyb3d8bbwe/Office.UI.Xaml.Core.dll: PUA.Win.Packer.Pequake-4 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/WindowsApps/Microsoft.Office.OneNote_16001.14228.20150.0_x64__8wekyb3d8bbwe/Office.UI.Xaml.Core.dll: PUA.Win.Packer.Pequake-4 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/WindowsApps/Microsoft.Office.OneNote_16001.14228.20150.0_x64__8wekyb3d8bbwe/Office.UI.Xaml.Core.dll: PUA.Win.Packer.Pequake-4 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/WindowsApps/Microsoft.Office.OneNote_16001.14228.20150.0_x64__8wekyb3d8bbwe/Office.UI.Xaml.OneNote.dll: PUA.Win.Packer.Pequake-4 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/WindowsApps/Microsoft.Office.OneNote_16001.14228.20150.0_x64__8wekyb3d8bbwe/Office.UI.Xaml.OneNote.dll: PUA.Win.Packer.Pequake-4 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/WindowsApps/Microsoft.Office.OneNote_16001.14228.20150.0_x64__8wekyb3d8bbwe/Office.UI.Xaml.OneNote.dll: PUA.Win.Packer.Pequake-4 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/WindowsApps/Microsoft.Office.OneNote_16001.14228.20150.0_x64__8wekyb3d8bbwe/Office.UI.Xaml.OneNote.dll: PUA.Win.Packer.Pequake-4 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/WindowsApps/Microsoft.Office.OneNote_16001.14228.20150.0_x64__8wekyb3d8bbwe/Office.UI.Xaml.OneNote.dll: PUA.Win.Packer.Pequake-4 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/WindowsApps/Microsoft.Office.OneNote_16001.14228.20150.0_x64__8wekyb3d8bbwe/Office.UI.Xaml.OneNote.dll: PUA.Win.Packer.Pequake-4 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/WindowsApps/Microsoft.Office.OneNote_16001.14228.20150.0_x64__8wekyb3d8bbwe/onenoteim.exe: PUA.Win.Packer.Pequake-4 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/WindowsApps/Microsoft.Office.OneNote_16001.14228.20150.0_x64__8wekyb3d8bbwe/onenoteim.exe: PUA.Win.Packer.Pequake-4 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/WindowsApps/Microsoft.Office.OneNote_16001.14228.20150.0_x64__8wekyb3d8bbwe/onenoteim.exe: PUA.Win.Packer.Pequake-4 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/WindowsApps/Microsoft.Windows.Photos_2021.21070.22007.0_x64__8wekyb3d8bbwe/UnityPlayer.dll: PUA.Win.Packer.XmMusicFile-1 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/WindowsApps/microsoft.windowscommunicationsapps_16005.13426.20920.0_x64__8wekyb3d8bbwe/gfxim.dll: PUA.Win.Packer.Pequake-4 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/WindowsApps/microsoft.windowscommunicationsapps_16005.13426.20920.0_x64__8wekyb3d8bbwe/gfxim.dll: PUA.Win.Packer.Pequake-4 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/WindowsApps/microsoft.windowscommunicationsapps_16005.13426.20920.0_x64__8wekyb3d8bbwe/gfxim.dll: PUA.Win.Packer.Pequake-4 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/WindowsApps/microsoft.windowscommunicationsapps_16005.13426.20920.0_x64__8wekyb3d8bbwe/gfxim.dll: PUA.Win.Packer.Pequake-4 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/WindowsApps/microsoft.windowscommunicationsapps_16005.13426.20920.0_x64__8wekyb3d8bbwe/gfxim.dll: PUA.Win.Packer.Pequake-4 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/WindowsApps/microsoft.windowscommunicationsapps_16005.13426.20920.0_x64__8wekyb3d8bbwe/gfxim.dll: PUA.Win.Packer.Pequake-4 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/WindowsApps/microsoft.windowscommunicationsapps_16005.13426.20920.0_x64__8wekyb3d8bbwe/HxComm.dll: PUA.Win.Packer.Pequake-4 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/WindowsApps/microsoft.windowscommunicationsapps_16005.13426.20920.0_x64__8wekyb3d8bbwe/HxComm.dll: PUA.Win.Packer.Pequake-4 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/WindowsApps/microsoft.windowscommunicationsapps_16005.13426.20920.0_x64__8wekyb3d8bbwe/HxComm.dll: PUA.Win.Packer.Pequake-4 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/WindowsApps/microsoft.windowscommunicationsapps_16005.13426.20920.0_x64__8wekyb3d8bbwe/HxOutlook.Model.dll: PUA.Win.Packer.Pequake-4 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/WindowsApps/microsoft.windowscommunicationsapps_16005.13426.20920.0_x64__8wekyb3d8bbwe/HxOutlook.Model.dll: PUA.Win.Packer.Pequake-4 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/WindowsApps/microsoft.windowscommunicationsapps_16005.13426.20920.0_x64__8wekyb3d8bbwe/HxOutlook.Model.dll: PUA.Win.Packer.Pequake-4 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/WindowsApps/microsoft.windowscommunicationsapps_16005.13426.20920.0_x64__8wekyb3d8bbwe/HxOutlook.View.dll: PUA.Win.Packer.Pequake-4 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/WindowsApps/microsoft.windowscommunicationsapps_16005.13426.20920.0_x64__8wekyb3d8bbwe/HxOutlook.View.dll: PUA.Win.Packer.Pequake-4 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/WindowsApps/microsoft.windowscommunicationsapps_16005.13426.20920.0_x64__8wekyb3d8bbwe/HxOutlook.View.dll: PUA.Win.Packer.Pequake-4 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/WindowsApps/microsoft.windowscommunicationsapps_16005.13426.20920.0_x64__8wekyb3d8bbwe/HxOutlook.ViewModel.dll: PUA.Win.Packer.Pequake-4 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/WindowsApps/microsoft.windowscommunicationsapps_16005.13426.20920.0_x64__8wekyb3d8bbwe/HxOutlook.ViewModel.dll: PUA.Win.Packer.Pequake-4 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/WindowsApps/microsoft.windowscommunicationsapps_16005.13426.20920.0_x64__8wekyb3d8bbwe/HxOutlookBackground.dll: PUA.Win.Packer.Pequake-4 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/WindowsApps/microsoft.windowscommunicationsapps_16005.13426.20920.0_x64__8wekyb3d8bbwe/HxOutlookBackground.dll: PUA.Win.Packer.Pequake-4 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/WindowsApps/microsoft.windowscommunicationsapps_16005.13426.20920.0_x64__8wekyb3d8bbwe/HxOutlookBackground.dll: PUA.Win.Packer.Pequake-4 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/WindowsApps/microsoft.windowscommunicationsapps_16005.13426.20920.0_x64__8wekyb3d8bbwe/mso20imm.dll: PUA.Win.Packer.Pequake-4 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/WindowsApps/microsoft.windowscommunicationsapps_16005.13426.20920.0_x64__8wekyb3d8bbwe/mso20imm.dll: PUA.Win.Packer.Pequake-4 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/WindowsApps/microsoft.windowscommunicationsapps_16005.13426.20920.0_x64__8wekyb3d8bbwe/mso20imm.dll: PUA.Win.Packer.Pequake-4 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/WindowsApps/microsoft.windowscommunicationsapps_16005.13426.20920.0_x64__8wekyb3d8bbwe/mso30imm.dll: PUA.Win.Packer.Pequake-4 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/WindowsApps/microsoft.windowscommunicationsapps_16005.13426.20920.0_x64__8wekyb3d8bbwe/mso30imm.dll: PUA.Win.Packer.Pequake-4 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/WindowsApps/microsoft.windowscommunicationsapps_16005.13426.20920.0_x64__8wekyb3d8bbwe/mso30imm.dll: PUA.Win.Packer.Pequake-4 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/WindowsApps/microsoft.windowscommunicationsapps_16005.13426.20920.0_x64__8wekyb3d8bbwe/mso98imm.dll: PUA.Win.Packer.Pequake-4 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/WindowsApps/microsoft.windowscommunicationsapps_16005.13426.20920.0_x64__8wekyb3d8bbwe/mso98imm.dll: PUA.Win.Packer.Pequake-4 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/WindowsApps/microsoft.windowscommunicationsapps_16005.13426.20920.0_x64__8wekyb3d8bbwe/mso98imm.dll: PUA.Win.Packer.Pequake-4 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/WindowsApps/microsoft.windowscommunicationsapps_16005.13426.20920.0_x64__8wekyb3d8bbwe/oartim.dll: PUA.Win.Packer.Pequake-4 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/WindowsApps/microsoft.windowscommunicationsapps_16005.13426.20920.0_x64__8wekyb3d8bbwe/oartim.dll: PUA.Win.Packer.Pequake-4 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/WindowsApps/microsoft.windowscommunicationsapps_16005.13426.20920.0_x64__8wekyb3d8bbwe/oartim.dll: PUA.Win.Packer.Pequake-4 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/WindowsApps/microsoft.windowscommunicationsapps_16005.13426.20920.0_x64__8wekyb3d8bbwe/HxCalendar.dll: PUA.Win.Packer.Pequake-4 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/WindowsApps/microsoft.windowscommunicationsapps_16005.13426.20920.0_x64__8wekyb3d8bbwe/HxCalendar.dll: PUA.Win.Packer.Pequake-4 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/WindowsApps/microsoft.windowscommunicationsapps_16005.13426.20920.0_x64__8wekyb3d8bbwe/HxCalendar.dll: PUA.Win.Packer.Pequake-4 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/WindowsApps/microsoft.windowscommunicationsapps_16005.13426.20920.0_x64__8wekyb3d8bbwe/Office.UI.Xaml.Core.dll: PUA.Win.Packer.Pequake-4 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/WindowsApps/microsoft.windowscommunicationsapps_16005.13426.20920.0_x64__8wekyb3d8bbwe/Office.UI.Xaml.Core.dll: PUA.Win.Packer.Pequake-4 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/WindowsApps/microsoft.windowscommunicationsapps_16005.13426.20920.0_x64__8wekyb3d8bbwe/Office.UI.Xaml.Core.dll: PUA.Win.Packer.Pequake-4 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/WindowsApps/microsoft.windowscommunicationsapps_16005.13426.20920.0_x64__8wekyb3d8bbwe/Office.UI.Xaml.HxCalendar.dll: PUA.Win.Packer.Pequake-4 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/WindowsApps/microsoft.windowscommunicationsapps_16005.13426.20920.0_x64__8wekyb3d8bbwe/Office.UI.Xaml.HxCalendar.dll: PUA.Win.Packer.Pequake-4 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Program Files/WindowsApps/microsoft.windowscommunicationsapps_16005.13426.20920.0_x64__8wekyb3d8bbwe/Office.UI.Xaml.HxCalendar.dll: PUA.Win.Packer.Pequake-4 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/ProgramData/Microsoft/Windows Defender/Definition Updates/Backup/mpengine.dll: PUA.Win.Packer.Lzexe-1 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/ProgramData/Microsoft/Windows Defender/Definition Updates/Backup/mpengine.dll: PUA.Win.Packer.Nspack-34 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/ProgramData/Microsoft/Windows Defender/Definition Updates/Backup/mpengine.lkg: PUA.Win.Packer.Lzexe-1 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/ProgramData/Microsoft/Windows Defender/Definition Updates/Backup/mpengine.lkg: PUA.Win.Packer.Nspack-34 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/ProgramData/Microsoft/Windows Defender/Definition Updates/StableEngineEtwLocation/mpengine_etw.dll: PUA.Win.Packer.Lzexe-1 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/ProgramData/Microsoft/Windows Defender/Definition Updates/StableEngineEtwLocation/mpengine_etw.dll: PUA.Win.Packer.Nspack-34 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/ProgramData/Microsoft/Windows Defender/Definition Updates/{8B2EE9BF-C59B-4D73-9944-D140FFA2CF85}/mpengine.dll: PUA.Win.Packer.Lzexe-1 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/ProgramData/Microsoft/Windows Defender/Definition Updates/{8B2EE9BF-C59B-4D73-9944-D140FFA2CF85}/mpengine.dll: PUA.Win.Packer.Nspack-34 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/ProgramData/MySQL/MySQL Installer for Windows/Product Cache/mysql-connector-net-6.9.9.msi: PUA.Win.Packer.Upx-49 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/ProgramData/MySQL/MySQL Installer for Windows/Product Cache/mysql-connector-net-6.9.9.msi: PUA.Win.Packer.UpxProtector-1 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/ProgramData/MySQL/MySQL Installer for Windows/Product Cache/mysql-connector-net-6.9.9.msi: PUA.Win.Packer.Upolyx-12 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/ProgramData/MySQL/MySQL Installer for Windows/Product Cache/mysql-connector-net-6.9.9.msi: PUA.Win.Packer.Upx-4 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Windows/BitLockerDiscoveryVolumeContents/autorun.inf: PUA.Win.Tool.Autorun-525 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Windows/Microsoft.NET/Framework/v4.0.30319/vbc.exe: Win.Malware.Generic-9882237-0 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Windows/System32/CTRLSRV.EXE: PUA.Win.Adware.Slugin-6840354-0 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Windows/System32/drivers/mssmbios.sys: PUA.Win.Packer.Pequake-4 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Windows/System32/drivers/vdrvroot.sys: PUA.Win.Packer.Pequake-4 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Windows/System32/drivers/vdrvroot.sys: PUA.Win.Packer.Pequake-4 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Windows/System32/DriverStore/FileRepository/mssmbios.inf_amd64_9fc7fe03de136fc1/mssmbios.sys: PUA.Win.Packer.Pequake-4 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Windows/System32/DriverStore/FileRepository/vdrvroot.inf_amd64_5dbe5e81fafe4636/vdrvroot.sys: PUA.Win.Packer.Pequake-4 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Windows/System32/DriverStore/FileRepository/vdrvroot.inf_amd64_5dbe5e81fafe4636/vdrvroot.sys: PUA.Win.Packer.Pequake-4 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Windows/System32/NlsLexicons0007.dll: PUA.Win.Packer.LyWgkx-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Windows/System32/mswsock.dll: PUA.Win.File.Pemalform-9786668-0 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Windows/SysWOW64/html.iec: PUA.Win.Packer.BorlandDelphiKo-1 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Windows/SysWOW64/ntdll.dll: PUA.Win.Packer.Pseudosigner-36 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Windows/SysWOW64/mswsock.dll: PUA.Win.File.Pemalform-9786668-0 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Windows/SysWOW64/sechost.dll: PUA.Win.File.Pemalform-9786669-0 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Windows/Temp/68AF66FC-935D-4BF1-8B66-23ACBE3B92532274.1d78b6f6c115436/mpengine.dll: PUA.Win.Packer.Lzexe-1 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Windows/Temp/68AF66FC-935D-4BF1-8B66-23ACBE3B92532274.1d78b6f6c115436/mpengine.dll: PUA.Win.Packer.Nspack-34 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Windows/WinSxS/amd64_dual_mssmbios.inf_31bf3856ad364e35_10.0.19041.1_none_461f2463c042786e/mssmbios.sys: PUA.Win.Packer.Pequake-4 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Windows/WinSxS/amd64_dual_vdrvroot.inf_31bf3856ad364e35_10.0.19041.1_none_71f587fed09ddb69/vdrvroot.sys: PUA.Win.Packer.Pequake-4 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Windows/WinSxS/amd64_dual_vdrvroot.inf_31bf3856ad364e35_10.0.19041.1_none_71f587fed09ddb69/vdrvroot.sys: PUA.Win.Packer.Pequake-4 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Windows/WinSxS/amd64_microsoft-windows-naturallanguage6-0007_31bf3856ad364e35_10.0.19041.1_none_f3cfe92500cee20a/NlsLexicons0007.dll: PUA.Win.Packer.LyWgkx-2 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Windows/WinSxS/amd64_microsoft-windows-smbserver-v2_31bf3856ad364e35_10.0.19041.928_none_b7fd88735538eda5/srv2.sys: PUA.Win.Packer.Pequake-4 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Windows/WinSxS/amd64_microsoft-windows-w..-infrastructure-bsp_31bf3856ad364e35_10.0.19041.546_none_964c9e068c1b0905/mswsock.dll: PUA.Win.File.Pemalform-9786668-0 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Windows/WinSxS/amd64_windows-defender-am-engine_31bf3856ad364e35_10.0.19041.1_none_b51c691f559e8961/MpEngine.dll: PUA.Win.Packer.Lzexe-1 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Windows/WinSxS/amd64_windows-defender-am-engine_31bf3856ad364e35_10.0.19041.1_none_b51c691f559e8961/MpEngine.dll: PUA.Win.Packer.Nspack-34 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Windows/WinSxS/Backup/wow64_microsoft-windows-ntdll_31bf3856ad364e35_10.0.19041.1110_none_d7f7b343e5bb8fd0_ntdll.dll_ae4ef39c: PUA.Win.Packer.Pseudosigner-36 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Windows/WinSxS/wow64_microsoft-windows-i..mlconverter-enduser_31bf3856ad364e35_10.0.19041.1_none_1517fd94918ed70d/html.iec: PUA.Win.Packer.BorlandDelphiKo-1 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Windows/WinSxS/wow64_microsoft-windows-ntdll_31bf3856ad364e35_10.0.19041.1110_none_d7f7b343e5bb8fd0/ntdll.dll: PUA.Win.Packer.Pseudosigner-36 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Windows/WinSxS/wow64_microsoft-windows-ntdll_31bf3856ad364e35_10.0.19041.928_none_413c77988f4ba7f0/ntdll.dll: PUA.Win.Packer.Pseudosigner-36 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Windows/WinSxS/wow64_microsoft-windows-sechost_31bf3856ad364e35_10.0.19041.906_none_703c15786005c809/sechost.dll: PUA.Win.File.Pemalform-9786669-0 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Windows/WinSxS/wow64_microsoft-windows-w..-infrastructure-bsp_31bf3856ad364e35_10.0.19041.546_none_a0a14858c07bcb00/mswsock.dll: PUA.Win.File.Pemalform-9786668-0 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Windows/WinSxS/x86_microsoft-windows-s..ccessagent-binaries_31bf3856ad364e35_10.0.19041.1_none_3802d0d85b60df4c/autorun.inf: PUA.Win.Tool.Autorun-525 FOUND
+/home/pw/BBH/Bayerns-Bester-Hacker/2021/Challenge2/drive/Windows/WinSxS/x86_netfx4-vbc_exe_b03f5f7f11d50a3a_4.0.15805.0_none_de9b06e519e58d0f/vbc.exe: Win.Malware.Generic-9882237-0 FOUND
+
+----------- SCAN SUMMARY -----------
+Known viruses: 8574413
+Engine version: 0.103.2
+Scanned directories: 67692
+Scanned files: 225813
+Infected files: 180
+Data scanned: 21749.35 MB
+Data read: 31772.92 MB (ratio 0.68:1)
+Time: 27688.286 sec (461 m 28 s)
+Start Date: 2021:08:19 09:31:05
+End Date:   2021:08:19 17:12:33
