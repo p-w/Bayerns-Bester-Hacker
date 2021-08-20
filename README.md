@@ -4,3 +4,4 @@
 
 ## Challenges
 * [Challenge 1](/2021/Challenge1/)
+* [Challenge 2](/2021/Challenge2/)
