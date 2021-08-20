@@ -404,20 +404,23 @@ IP | Beschreibung
 Nachtrag: Ein besonderer Hinweis gilt [Sleuthkit Autopsy](http://www.sleuthkit.org/autopsy/). Das Forensik-Tool und grafische Interface für einige weitere Software ist unabdingbar in der Analyse und Auswertung einer Fragestellung wie dieser.
 
 Meine Ausgangsbasis war ja auf einem Ubuntu Linux System und Autopsy als Webinterface:
-![Bayerns Bester Hacker 2021 Challenge 2 - ](Screenshots/BBH2021C2_Autopsy-Webinterface.jpg)
+![Bayerns Bester Hacker 2021 Challenge 2 - Autopsy Webinterface](Screenshots/BBH2021C2_Autopsy-Webinterface.jpg)
 
 Auch bei genauerem Hinsehen ergibt es hier keine Dateien, die noch aus dem Laufwerk ausgelesen werden können oder, wie oben über ntfsundelete und ntfs-3g Tools beschrieben, angezeigt werden können:
-![Bayerns Bester Hacker 2021 Challenge 2 - ](Screenshots/BBH2021C2_Drive-vs-Autopsy-Desktop.jpg)
+![Bayerns Bester Hacker 2021 Challenge 2 - Dateien in Autopsy, nicht im Drive](Screenshots/BBH2021C2_Drive-vs-Autopsy-Desktop.jpg)
 
 @AlexHofbauer hat mir aber den Hinweis gegeben, dass die Windows-Version gleicher Software hier durchaus Ergebnisse zutage fördert und diese hilfreich sind:
-![Bayerns Bester Hacker 2021 Challenge 2 - ](Screenshots/BBH2021C2_Autopsy-Windows-firemail.png)
+![Bayerns Bester Hacker 2021 Challenge 2 - Ergebnis Windows Autopsy](Screenshots/BBH2021C2_Autopsy-Windows-firemail.png)
+
+![Bayerns Bester Hacker 2021 Challenge 2 - Output Suche nach Infektionsweg](Screenshots/BBH2021C2_Autopsy-Windows-firemail-Output.png)
+
 
 Denn das schließt genau die Bewertung ab, wie wir den Infektionsweg beschrieben haben.
 
 Wichtig ist, dass diese Module geladen werden:
 Image | Modules
 ------|--------
-![Bayerns Bester Hacker 2021 Challenge 2 - ](Screenshots/BBH2021C2_Autopsy-Windows-Desktop-Module.png) | ![Bayerns Bester Hacker 2021 Challenge 2 - ](Screenshots/BBH2021C2_Autopsy-Windows-Desktop-Module2.png)
+![Bayerns Bester Hacker 2021 Challenge 2 - Autopsy Windows Desktop](Screenshots/BBH2021C2_Autopsy-Windows-Desktop-Module.png) | ![Bayerns Bester Hacker 2021 Challenge 2 - Autopsy Windows Module](Screenshots/BBH2021C2_Autopsy-Windows-Desktop-Module2.png)
 
 
 # Fazit
