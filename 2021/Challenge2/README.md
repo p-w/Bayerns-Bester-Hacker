@@ -266,6 +266,7 @@ Die Befehle leden auch den Command-Server unter *https://karen.h07.wlh.io/* offe
 Die Timeline-Analyse und Auswertung der HKLM-Einträge in der Windows Registry zeigt dabei, dass die Infektion über eine manipulierte PDF-Datei erfolgte. Dazu wurde der [PDF-Reader in Microsoft Edge](https://docs.microsoft.com/de-de/deployedge/microsoft-edge-pdf) ausgenutzt, um eine Shell zu öffnen und ein Kommando abzusetzen. Dieses hat wiederrum einen weiteren Befehl als anderer User ausgeführt:
 ![Bayerns Bester Hacker 2021 Challenge 2 - Exploit](Screenshots/BBH2021C2_PDF-Shell-Runas.jpg)
 Einen Rückschluss, welche PDF-Datei dies genau verursacht hat, kann daraus nicht gezogen werden.
+![Bayerns Bester Hacker 2021 Challenge 2 - Run As Priviledge Escalation](Screenshots/BBH2021C2_runas1.jpg)
 
 Die Powershell-Historie verrät unter anderem, dass das Skript sich in das System eingenistet hat und seine Entdeckung durch ein Abschalten des Windows Defenders verschleierte:
 ![Bayerns Bester Hacker 2021 Challenge 2 - Defender An](Screenshots/BBH2021C2_Microsoft-Defender-An.jpg)
@@ -317,6 +318,11 @@ Live.com / Office.com Login Cookie für User **l.maier**:
 
 ![Bayerns Bester Hacker 2021 Challenge 2 - Task Scheduler](Screenshots/BBH2021C2_Recent-TaskSched.jpg)
 
+Login und Rechteausweitung
+![Bayerns Bester Hacker 2021 Challenge 2 - ](Screenshots/BBH2021C2_logon1.jpg)
+![Bayerns Bester Hacker 2021 Challenge 2 - ](Screenshots/BBH2021C2_logon2.jpg)
+![Bayerns Bester Hacker 2021 Challenge 2 - ](Screenshots/BBH2021C2_logon3.jpg)
+![Bayerns Bester Hacker 2021 Challenge 2 - ](Screenshots/BBH2021C2_logon4.jpg)
 
 #### Browsing History
 
@@ -379,6 +385,8 @@ drive/ProgramData/MySQL/MySQL Server 5.7/Data$ ls
 ```
 
 Der Passwort-Safe des Admins ist in l.maier/Documents vorhanden, wurde vom Angreifer verschlüsselt und kann aktuell nicht eingesehen werden.
+
+
 
 
 #### Netzwerk
@@ -482,3 +490,6 @@ ActivitiesCache.db-shm: data
 ActivitiesCache.db-wal: SQLite Write-Ahead Log, version 3007000
 README.txt:             ASCII text
 ```
+
+```.sh```-Dateiendung als Standardanwendung Notepad ausgewählt
+![Bayerns Bester Hacker 2021 Challenge 2 - ](Screenshots/BBH2021C2_sh.jpg)
