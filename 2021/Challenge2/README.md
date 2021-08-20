@@ -387,9 +387,8 @@ drive/ProgramData/MySQL/MySQL Server 5.7/Data$ ls
 Der Passwort-Safe des Admins ist in l.maier/Documents vorhanden, wurde vom Angreifer verschlüsselt und kann aktuell nicht eingesehen werden.
 
 
-
-
 #### Netzwerk
+
 IP | Beschreibung
 -- | ------------
 192.168.2.2 | Domain Controller mit Hostname win-horcue9m4ld.rae-schmitt.de
@@ -398,6 +397,27 @@ IP | Beschreibung
 
 ![Bayerns Bester Hacker 2021 Challenge 2 - R:/](Screenshots/BBH2021C2_Netzlaufwerk.jpg)
 ![Bayerns Bester Hacker 2021 Challenge 2 - Login von Domain Controller](Screenshots/BBH2021C2_DomainController.jpg)
+
+
+#### Autopsy
+
+Nachtrag: Ein besonderer Hinweis gilt [Sleuthkit Autopsy](http://www.sleuthkit.org/autopsy/). Das Forensik-Tool und grafische Interface für einige weitere Software ist unabdingbar in der Analyse und Auswertung einer Fragestellung wie dieser.
+
+Meine Ausgangsbasis war ja auf einem Ubuntu Linux System und Autopsy als Webinterface:
+![Bayerns Bester Hacker 2021 Challenge 2 - ](Screenshots/BBH2021C2_Autopsy-Webinterface.jpg)
+
+Auch bei genauerem Hinsehen ergibt es hier keine Dateien, die noch aus dem Laufwerk ausgelesen werden können oder, wie oben über ntfsundelete und ntfs-3g Tools beschrieben, angezeigt werden können:
+![Bayerns Bester Hacker 2021 Challenge 2 - ](Screenshots/BBH2021C2_Drive-vs-Autopsy-Desktop.jpg)
+
+@AlexHofbauer hat mir aber den Hinweis gegeben, dass die Windows-Version gleicher Software hier durchaus Ergebnisse zutage fördert und diese hilfreich sind:
+![Bayerns Bester Hacker 2021 Challenge 2 - ](Screenshots/BBH2021C2_Autopsy-Windows-firemail.png)
+
+Denn das schließt genau die Bewertung ab, wie wir den Infektionsweg beschrieben haben.
+
+Wichtig ist, dass diese Module geladen werden:
+Image | Modules
+------|--------
+![Bayerns Bester Hacker 2021 Challenge 2 - ](Screenshots/BBH2021C2_Autopsy-Windows-Desktop-Module.png) | ![Bayerns Bester Hacker 2021 Challenge 2 - ](Screenshots/BBH2021C2_Autopsy-Windows-Desktop-Module2.png)
 
 
 # Fazit
