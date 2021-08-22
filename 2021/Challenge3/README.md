@@ -43,6 +43,7 @@ PING win-horcue9m4ld.rae-schmitt.de (213.190.30.57): 56 data bytes
 ```
 
 Das Backup-Script nutzt einen User ```kayilvggxt``` und Host ```93.90.206.205```. Ein Ping zur Kontaktaufnahme wird blockiert, daher wurde der offene SSH-Port mit [nmap](https://nmap.org/) überprüft und sichergestellt. Ein Login mit dem [SSH-Key](../Challenge1/ssh.key) aus [Challenge 1](../Challenge1) funktioniert und gibt folgende Meldung aus:
+![Bayerns Bester Hacker 2021 Challenge 3 - SSH-Login-Banner auf Backup-Host](Screenshots/BBH2021C3_SSH-Login-BackupHost.png)
 ```
 $ ssh -i ../Challenge1/ssh.key kayilvggxt@93.90.206.205
 Mitteilung:
@@ -82,6 +83,10 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 
 
 #### File Share
+![Bayerns Bester Hacker 2021 Challenge 3 - File Share 1](Screenshots/BBH2021C3_File-Share-1.png)
+![Bayerns Bester Hacker 2021 Challenge 3 - File Share 2](Screenshots/BBH2021C3_File-Share-2.png)
+![Bayerns Bester Hacker 2021 Challenge 3 - File Share 3](Screenshots/BBH2021C3_File-Share-3.png)
+![Bayerns Bester Hacker 2021 Challenge 3 - File Share 4](Screenshots/BBH2021C3_File-Share-4.png)
 
 #### SSH-Host
 
@@ -97,6 +102,13 @@ kayilvggxt@ubuntu_srv:~$
 ```
 
 **Hinweis:** Die bisher eingeloggten User und zufälligen Usernames deuten auf weitere Teilnehmer der Challenge hin und werden mit den Hosts nicht in Betracht gezogen.
+![Bayerns Bester Hacker 2021 Challenge 3 - Challenge Teilnehmer](Screenshots/BBH2021C3_Challenge-Teilnehmer.png)
+
+![Bayerns Bester Hacker 2021 Challenge 3 - Bash Restricted](Screenshots/BBH2021C3_Bash-Restricted.png)
+```
+kayilvggxt@ubuntu_srv:~$ cd 
+bash: cd: restricted
+```
 
 
 # Fazit
