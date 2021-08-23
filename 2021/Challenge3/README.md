@@ -230,7 +230,7 @@ Port 8080:       Open
 Das durchschleusen der Anfragen und ein Upgrade der Session in Metasploit gestaltet sich schwierig:
 ![Bayerns Bester Hacker 2021 Challenge 3 - Restricted Shell Pivot](Screenshots/BBH2021C3_Shell-Upgrade.png)
 
-Damit wir den SSH-Host trotzdem als Pivot Einstieg in das interne Netzwerk nutzen können, wird proxychains verwenden.
+Damit wir den SSH-Host trotzdem als Pivot Einstieg in das interne Netzwerk nutzen können, wird [proxychains](https://github.com/haad/proxychains) verwenden.
 
 Dazu wird ein SSH-Tunnel vom lokalen Host mit den oben genannten Credentials aufgebaut:
 ```
@@ -242,8 +242,9 @@ Die proxychains.conf erhält dann:
 socks5  127.0.0.1 9049
 ```
 
-Damit können die internen IPs gescannt werden - ohne, dass eine Anwendung selbst auf den eingeschränkten Host deployt werden muss:
+Damit können die internen IPs gescannt werden - ohne, dass eine Anwendung selbst auf den eingeschränkten Host deployt werden muss.
 
+**Disclaimer**: bitte darauf achten, dass proxychains beim Scan eines Netzwerkssegments nicht unbedingt den Proxy nutzt! Dies kann zu unbeabsichtigten Scans in anderen Netzwerken führen!
 ```
 proxychains nmap -sV -v -P0 -oG 192.168.2.137.log 192.168.2.137
 proxychains nmap -sV -v -P0 -oG 192.168.2.0.log 192.168.2.0/24
