@@ -214,6 +214,14 @@ Port 8080:       Open
 Das durchschleusen der Anfragen und ein Upgrade der Session in Metasploit gestaltet sich schwierig:
 ![Bayerns Bester Hacker 2021 Challenge 3 - Restricted Shell Pivot](Screenshots/BBH2021C3_Shell-Upgrade.png)
 
+BBH2021C3_sqlmap
+BBH2021C3_sqlmap-success
+
+##### Passwoerter
+
+https://crackstation.net/ss
+BBH2021C3_Passwoerter-cracked
+
 
 # Fazit
 
