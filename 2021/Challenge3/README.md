@@ -280,6 +280,7 @@ Database: public Table: cases
 | 4  | Greenlam | 2      | 611     | 2017-08-21 | Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis. Donec semper sapien a libero.                                                                                                                                                                                     |
 | 5  | Bigtax   | 1      | 332     | 2021-03-12 | Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
 
+Die gesamten Daten finden sich im [log](sqlmap/log).
 
 ##### Passwoerter
 
