@@ -1,8 +1,8 @@
-# Bayerns Bester Hacker 2021
+# Bayerns Bester Hacker
+## Deine Hacking Challenge
 
-![Bayerns Bester Hacker 2021](2021/images/BBH_Logo_2021.png)
+![Bayerns Bester Hacker 2022](2022/images/BBH_Logo_2022.png)
 
 ## Challenges
-* [Challenge 1](/2021/Challenge1/)
-* [Challenge 2](/2021/Challenge2/)
-* [Challenge 3](/2021/Challenge3/)
+* [2021](/2021/)
+* [2022](/2022/)
