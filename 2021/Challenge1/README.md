@@ -40,7 +40,12 @@ Mit freundlichen Grüßen,
 Dein Challenge-Team von Bayerns Bester Hacker
 
 
-## Lösung
+## Update: Offizieller Lösungsweg
+
+[![Challenge & Solution #1 | Kryptografie | Bayerns Bester Hacker 2021](https://img.youtube.com/vi/1d-DR7cK_HQ/0.jpg)](https://www.youtube.com/watch?v=1d-DR7cK_HQ)
+
+
+## Mein Lösungsweg
 
 1. Die Angaben aus der Email gelesen und den Anhang grob überflogen. Die mail.enc sieht im ersten Moment wie eine Zeichenverschiebung (ala Rot-13) aus.
 2. Der Hinweis zur Website hat mich zur [robots.txt](https://rae-schmitt.de/robots.txt) gebracht, die u.a. das Unterverzeichnis [/keys/](https://rae-schmitt.de/keys/) vor Suchmaschinen blockiert.

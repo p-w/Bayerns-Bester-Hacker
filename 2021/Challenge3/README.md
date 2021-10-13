@@ -20,7 +20,12 @@ Happy Hacking!
 Dein Challenge-Team von Bayerns Bester Hacker!
 
 
-## Lösung
+## Update: Offizieller Lösungsweg
+
+[![Challenge & Solution #3 | SQL Injection | Bayerns Bester Hacker 2021](https://img.youtube.com/vi/oAO_2JquBP0/0.jpg)](https://www.youtube.com/watch?v=oAO_2JquBP0)
+
+
+## Mein Lösungsweg
 
 
 ### Vorbereitung
